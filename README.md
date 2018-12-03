@@ -28,15 +28,15 @@ UUID Twig extension adds the Twig function `getUUID()`.
 
 ## Configuring UUID
 
--No configuration required-
+No configuration required.
 
 ## Using UUID
 
-´´´twig
+```twig
 {# Example usage #}
 {% set uuid = getUUID() %}
 {{ uuid }}
-´´´
+```
 
 ## UUID Roadmap
 

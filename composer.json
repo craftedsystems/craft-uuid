@@ -1,0 +1,43 @@
+{
+  "name": "craftedsystems/uuid",
+  "description": "Adds the Twig function `getUUID()`.",
+  "type": "craft-plugin",
+  "version": "1.0.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "uuid",
+    "universally unique identifier",
+    "guid",
+    "globally unique identifier"
+  ],
+  "support": {
+    "docs": "https://github.com/craftedsystems/craft-uuid/uuid/blob/master/README.md",
+    "issues": "https://github.com/craftedsystems/craft-uuid/uuid/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Crafted Systems",
+      "homepage": "https://www.crafted.systems"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "craftedsystems\\uuid\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "UUID Twig extension",
+    "handle": "uuid",
+    "hasCpSettings": false,
+    "hasCpSection": false,
+    "changelogUrl": "https://raw.githubusercontent.com/craftedsystems/craft-uuid/uuid/master/CHANGELOG.md",
+    "class": "craftedsystems\\uuid\\UUID"
+  }
+}
